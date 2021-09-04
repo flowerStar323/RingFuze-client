@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAUA,AACE,aADW,AACV,MAAM,CAAC;EACN,OAAO,EAAE,CAAC;CACX;;AAEH,AAAA,eAAe,CAAC;EACd,eAAe,EAAE,UAAU;CAC5B;;AACD,AAAA,eAAe,CAAC;EACd,SAAS,EAAE,CAAC;CACb",
+    "sources": [
+        "ext-component-media-player.scss"
+    ],
+    "names": [],
+    "file": "ext-component-media-player.css"
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1649px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr);
+  }
+  .grid-item {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px 10px;
+  }
+  .grid-block .grid-block-img {
+    max-width: 50px;
+  }
+  .grid-item {
+    padding: 10px;
+  }
+  .media-edit-page .img-wrapper-blk {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-item {
+    height: 100px;
+  }
+  .question-grid-container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .question-grid-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
